@@ -1,0 +1,31 @@
+@ main { 
+
+  @ a,b,x; 
+
+  input a; 
+
+  input b; 
+
+  if a < b { 
+
+    a as x; 
+
+    b as a; 
+
+    x as b; 
+
+  };
+
+  start { 
+
+    a % b as x; 
+
+    b as a; 
+
+    x as b; 
+
+  }repeat x != 0 ; 
+
+ output a; 
+
+} 

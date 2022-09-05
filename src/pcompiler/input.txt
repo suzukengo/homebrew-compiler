@@ -1,0 +1,5 @@
+@ main { 
+  @a,a;
+  10 as a;
+  output a;
+}
